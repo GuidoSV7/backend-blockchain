@@ -1,4 +1,5 @@
-module starter::practica_sui {
+module starter::ecommerceSui {
+    
      use std::string::{String, utf8};
 
     use sui::vec_map::{VecMap, Self};
