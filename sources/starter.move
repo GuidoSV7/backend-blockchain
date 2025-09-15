@@ -49,7 +49,7 @@ module starter::practica_sui {
         ecommerce.products.insert(id, product);
     }
 
-    public fun modificar_disponibilidad_producto(ecommerce: &mut Ecommerce, id: u64) {
+    public fun modifyAvailableProduct(ecommerce: &mut Ecommerce, id: u64) {
 
     assert!(ecommerce.products.contains(&id), ID_NO_EXISTE);
 
@@ -60,7 +60,7 @@ module starter::practica_sui {
     }
 
 
-    public fun eliminar_producto(ecommerce: &mut Ecommerce, id: u64) {
+    public fun deleteProduct(ecommerce: &mut Ecommerce, id: u64) {
   
         assert!(ecommerce.products.contains(&id), ID_NO_EXISTE);
 
@@ -68,7 +68,7 @@ module starter::practica_sui {
         ecommerce.products.remove(&id);
     }
 
-    public fun restar_stock(ecommerce: &mut Ecommerce, id: u64, cantidad: u64) {
+    public fun decreaseStock(ecommerce: &mut Ecommerce, id: u64, cantidad: u64) {
 
         assert!(ecommerce.products.contains(&id), ID_NO_EXISTE);
 
