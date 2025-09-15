@@ -1,12 +1,13 @@
 # Ecommerce
 
 
-#Mainnet
 
-<div style="border:2px solid #000; padding:10px; display:inline-block; font-family:monospace;">
-<strong>package</strong>: 0xb10b2e9c1f462efdc4dec92b4b5b95b32fdbcf1a7db727dde06b4591f0a10501<br>
-<strong>module</strong>: ecommerceSui
-</div>
+# Mainnet
+
+| package                                                                 | module       |
+|-------------------------------------------------------------------------|--------------|
+| 0xb10b2e9c1f462efdc4dec92b4b5b95b32fdbcf1a7db727dde06b4591f0a10501      | ecommerceSui |
+
 
 
 
