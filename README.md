@@ -7,12 +7,12 @@
 ## Package & Module
 | package                                                                 | module       |
 |-------------------------------------------------------------------------|--------------|
-| 0xb10b2e9c1f462efdc4dec92b4b5b95b32fdbcf1a7db727dde06b4591f0a10501      | ecommerceSui |
+| 0x55b99e0d55e27afe4cfc3f19e0ffddcbcd8e7d4b13af3bf143c9588f51bd150f     | ecommerceSui |
 
 ## Object (Ecommerce)
 | object_id                                                               | tipo      |
 |-------------------------------------------------------------------------|-----------|
-| 0x9ddda6c823daeb1dc89649398d8036aa5e2e38274e99f3f357c599e2884d0deb      | Ecommerce |
+| 0x1e890e39062040545579be71f833a52e0a7b5ca5be21cbefa9c9bdcaee5d5f5f      | Ecommerce |
 
 
 
@@ -22,13 +22,13 @@
 sui client balance
 sui client publish
 
-- sui client call --package 0xb10b2e9c1f462efdc4dec92b4b5b95b32fdbcf1a7db727dde06b4591f0a10501 --module ecommerceSui --function addProduct --args 0x9ddda6c823daeb1dc89649398d8036aa5e2e38274e99f3f357c599e2884d0deb 1 "Mouse Inalambrico"
+- sui client call --package 0x55b99e0d55e27afe4cfc3f19e0ffddcbcd8e7d4b13af3bf143c9588f51bd150f --module ecommerceSui --function addProduct --args 0x1e890e39062040545579be71f833a52e0a7b5ca5be21cbefa9c9bdcaee5d5f5f 1 "Mouse Inalambrico"
 
-- sui client call --package 0xb10b2e9c1f462efdc4dec92b4b5b95b32fdbcf1a7db727dde06b4591f0a10501 --module ecommerceSui --function modifyAvailableProduct --args 0x9ddda6c823daeb1dc89649398d8036aa5e2e38274e99f3f357c599e2884d0deb 2
+- sui client call --package 0x55b99e0d55e27afe4cfc3f19e0ffddcbcd8e7d4b13af3bf143c9588f51bd150f --module ecommerceSui --function modifyAvailableProduct --args 0x1e890e39062040545579be71f833a52e0a7b5ca5be21cbefa9c9bdcaee5d5f5f 2
 
-- sui client call --package 0xb10b2e9c1f462efdc4dec92b4b5b95b32fdbcf1a7db727dde06b4591f0a10501 --module ecommerceSui --function deleteProduct --args 0x9ddda6c823daeb1dc89649398d8036aa5e2e38274e99f3f357c599e2884d0deb 2
+- sui client call --package 0x55b99e0d55e27afe4cfc3f19e0ffddcbcd8e7d4b13af3bf143c9588f51bd150f --module ecommerceSui --function deleteProduct --args 0x1e890e39062040545579be71f833a52e0a7b5ca5be21cbefa9c9bdcaee5d5f5f 2
 
-- sui client call --package 0xb10b2e9c1f462efdc4dec92b4b5b95b32fdbcf1a7db727dde06b4591f0a10501 --module ecommerceSui --function decreaseStock --args 0x9ddda6c823daeb1dc89649398d8036aa5e2e38274e99f3f357c599e2884d0deb 1 3
+- sui client call --package 0x55b99e0d55e27afe4cfc3f19e0ffddcbcd8e7d4b13af3bf143c9588f51bd150f --module ecommerceSui --function decreaseStock --args 0x1e890e39062040545579be71f833a52e0a7b5ca5be21cbefa9c9bdcaee5d5f5f 1 3
 
 
 ```
