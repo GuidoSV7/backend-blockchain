@@ -1,6 +1,6 @@
 # Ecommerce
 
-``` sh
+
 #Mainnet
 
 <div style="border:2px solid #000; padding:10px; display:inline-block; font-family:monospace;">
@@ -8,7 +8,6 @@
 <strong>module</strong>: ecommerceSui
 </div>
 
-```
 
 
 ``` sh
