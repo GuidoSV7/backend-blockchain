@@ -4,9 +4,15 @@
 
 # Mainnet
 
+## Package & Module
 | package                                                                 | module       |
 |-------------------------------------------------------------------------|--------------|
 | 0xb10b2e9c1f462efdc4dec92b4b5b95b32fdbcf1a7db727dde06b4591f0a10501      | ecommerceSui |
+
+## Object (Ecommerce)
+| object_id                                                               | tipo      |
+|-------------------------------------------------------------------------|-----------|
+| 0x9ddda6c823daeb1dc89649398d8036aa5e2e38274e99f3f357c599e2884d0deb      | Ecommerce |
 
 
 
